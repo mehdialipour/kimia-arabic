@@ -1097,6 +1097,10 @@ if(strpos($jdate, "سه شنبه") !== false) {
     @yield('scripts')
 
     <script>
+
+            $(document).on('mouseover','#translate', function() {
+                $(".goog-te-banner-frame").hide();
+            });
             $(document).ready(function() {
                 $('.selectbox').select2();
             });
