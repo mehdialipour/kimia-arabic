@@ -1,0 +1,39 @@
+#invoice {
+	margin: 0;
+	width: 100%;
+	margin-top: 0px !important;
+	position: relative;
+	right: 0;
+	max-width: 100%;
+	display: flex;
+	justify-content: flex-start;
+}
+
+#invoice .inner-invoice{
+
+            width: 7cm;
+    right: 15px;
+    position: relative;
+    top: 10px;
+
+}
+
+
+#invoice .inner-invoice .table th,
+
+#invoice .inner-invoice .table td {
+
+	padding: 0 !important;
+	font-size: 10px;
+	color: #000 !important;
+}
+
+h5, .h5,
+.text-success,
+ .text-danger{
+
+	font-size: 10px;
+	color: #000 !important;
+}
+
+

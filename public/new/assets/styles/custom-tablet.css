@@ -1,0 +1,81 @@
+.form-group.row {
+
+    width: 100%
+}
+
+@media screen and (max-width: 1100px) and (min-width: 300px) {
+
+    .kt-grid.kt-grid--hor-desktop.kt-grid--desktop {
+
+        position: fixed;
+    }
+
+    .kt-aside-menu .kt-menu__nav > .kt-menu__item > .kt-menu__link {
+
+        padding: 5px 30px;
+        flex-direction: row-reverse;
+    }
+
+    .kt-aside-menu .kt-menu__nav > .kt-menu__item > .kt-menu__link .kt-menu__link-text {
+
+        font-size: 14px;
+        width: auto;
+        display: inline-block;
+        padding-top: 13px;
+        padding-right: 15px;
+    }
+
+    .kt-aside .kt-aside-menu .kt-menu__nav > .kt-menu__item {
+
+        margin-bottom: 15px;
+    }
+
+    .form-group {
+
+        width: 100%;
+    }
+
+    .form-group.row .col-lg-3 {
+
+        width: 50%
+    }
+
+    .turns-create .form-group.row .col-lg-3 {
+
+        width: 100%;
+    }
+
+    #datetimepicker3 ~ .col-lg-3 {
+
+        margin-top: 25px;
+    }
+
+    #turns-table td img {
+
+        max-width: 30px !important;
+    }
+
+    form .span-td a i,
+    form .span-td button i {
+
+        display: none;
+    }
+
+    #roles-table {
+        
+        width: 80%;
+    }
+    
+    #kt_header_mobile_toggler{
+        
+        display: none;
+    }
+    
+    .kt-aside-menu .kt-menu__nav > .kt-menu__item .kt-menu__submenu .kt-menu__item > .kt-menu__link .kt-menu__link-text{
+        
+        justify-content: flex-end;
+    }
+    
+    
+
+}

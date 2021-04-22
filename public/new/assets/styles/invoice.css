@@ -1,0 +1,44 @@
+#invoice {
+
+    margin: 0;
+    width: 8cm;
+    margin-top: 0px !important;
+    position: relative;
+    right: 180px;
+}
+
+h3,
+.h3 {
+    font-size: 12px;
+}
+
+#invoice .table {
+
+    width: 6cm;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 5px 0;
+}
+
+h5,
+.h5 {
+    font-size: 9px;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    position: relative;
+    top: -40px;
+    padding: 5px 10px;
+}
+
+.table th, .table td {
+  padding: 0 !important;
+  font-size: 8px;
+}
+

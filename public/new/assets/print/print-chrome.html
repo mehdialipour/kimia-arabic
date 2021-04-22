@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html prefix="og:">
+
+<head prefix="my_namespace: http://congress.eccim.com/#">
+
+    <!-- Public META -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- /Public META -->
+
+    <!-- Title -->
+    <title>aaa </title>
+    <link rel="shortcut icon" href="" />
+    <!-- /Title -->
+
+    <!-- Web Fonts Css -->
+    <link rel="stylesheet" type="text/css" href="fonts/IRANSans/css/IRANSans.css">
+    <link rel="stylesheet" type="text/css" href="fonts/Open_Sans/OpenSans.css">
+
+    <!-- Bootstrap Core Css -->
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="skeleton.css">
+
+    <!-- Template Pc Css -->
+    <link rel="stylesheet" type="text/css" href="print-chrome.css">
+
+</head>
+
+<body>
+
+    <main class="main-body col-md-12 col-lg-12">
+
+        <div class="print">
+            <div class="page-print">
+
+                <div id="my-node" class="inner-invoice">
+                    <h5>به کلینیک شیخ الرییس (پروفسور قدیر محمدی) خوش آمدید</h5>
+                    <h3>جزئیات صورتحساب <strong>منیژه عرب رسولی</strong></h3>
+                    <table class="table table-bordered" border="1" style="border: 1px solid #000 !important;">
+                        <thead style="border:1px solid #000 !important;">
+                            <tr align="center">
+                                <th style="border: 1px solid #000 !important;">#</th>
+                                <th style="border: 1px solid #000 !important;">نام خدمت</th>
+                                <th style="border: 1px solid #000 !important;">خدمت دهنده</th>
+                                <th style="border: 1px solid #000 !important;">تعداد</th>
+                                <th style="border: 1px solid #000 !important;">مبلغ</th>
+                                <th style="border: 1px solid #000 !important;">وضعیت</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr align="center">
+                                <td style="border: 1px solid #000 !important;">۱</td>
+                                <td style="border: 1px solid #000 !important;">
+                                    حجامت + پک
+                                </td>
+                                <td style="border: 1px solid #000 !important;">فاطمه تاک پرور</td>
+                                <td style="border: 1px solid #000 !important;">
+                                    ۱
+                                </td>
+                                <td style="border: 1px solid #000 !important;">
+
+                                    ۴۵۰,۰۰۰ ریال
+                                </td>
+                                <td style="border: 1px solid #000 !important;" class="text-danger">
+                                    پرداخت نشده
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    مدیر مرکز: پروفسور قدیر محمدی <br>
+
+                    آدرس: تبریز - خیابان ارتش جنوبی - روبروی اداره‌ی کل پست - کلینیک شیخ الرییس <br>
+                    ثبت کننده: ادمین ادمینی
+                    <h5>جمع کل صورتحساب: ۴۵۰,۰۰۰ ریال</h5>
+                    <h5 class="text-success">مبلغ پرداخت شده: ۰ ریال</h5>
+                    <h5 class="text-danger">مبلغ پرداخت نشده: ۴۵۰,۰۰۰ ریال</h5>
+                    <h5>جمع کل تخفیف: ۰ ریال </h5>
+                    <h3><strong>مبلغ قابل پرداخت:<br><br>
+                            ۴۵۰,۰۰۰ ریال
+                        </strong></h3>
+
+                    <br><br>
+                    <a href="http://194.5.193.149/clinic-v2/public/turns/326/money" class="btn btn-success">پرداخت</a>
+                    <button class="btn btn-warning no-print" onclick="window.close();">بستن x</button>
+                    <button class="btn btn-primary no-print" onclick="window.print(); window.close();">پرینت <i class="fa fa-print"></i></button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="img-main"></div>
+
+    </main>
+
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="dom-to-image.min.js"></script>
+    <script type="text/javascript" src="printThis.js"></script>
+
+    <script>
+        $('body').on("click", function() {
+
+            //            var node = document.getElementById('my-node');
+            //
+            //            domtoimage.toPng(node)
+            //                .then(function(dataUrl) {
+            //                    var img = new Image();
+            //                    img.src = dataUrl;
+            //                    document.body.appendChild(img);
+            //                })
+            //                .catch(function(error) {
+            //                    console.error('oops, something went wrong!', error);
+            //                });
+            //
+            //            setTimeout(function() {
+            //
+            //                var a = $('.img-main').html($('img'));
+            //                console.log($('body img'));
+            //
+            //                $('.img-main img').printThis({
+            //                    base: "print.html"
+            //                });
+            //
+            //            }, 2000);
+
+            //            $('.img-main img').printThis({
+            //                base: "print.html"
+            //            });
+
+        });
+
+    </script>
+
+</body>
+
+</html>

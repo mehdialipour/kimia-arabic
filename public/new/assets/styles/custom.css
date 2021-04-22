@@ -1,0 +1,629 @@
+.kt-grid.kt-grid--hor-desktop.kt-grid--desktop {
+
+    direction: ltr;
+    position: relative;
+    width: 115px;
+}
+
+.kt-aside--minimize .kt-aside-menu .kt-menu__nav .kt-menu__item:not([data-ktmenu-submenu-mode='accordion']).kt-menu__item--hover > .kt-menu__submenu,
+.kt-aside-menu.kt-aside-menu--dropdown .kt-menu__nav .kt-menu__item:not([data-ktmenu-submenu-mode='accordion']).kt-menu__item--hover > .kt-menu__submenu {
+
+    right: 245px;
+}
+
+.kt-aside .kt-aside-menu .kt-menu__nav > .kt-menu__item > .kt-menu__link > .kt-menu__link-icon {
+
+    font-size: 20px;
+}
+
+.kt-aside .kt-aside-menu .kt-menu__nav > .kt-menu__item {
+
+    margin-bottom: 10px;
+}
+
+.kt-aside-menu .kt-menu__nav > .kt-menu__item > .kt-menu__link .kt-menu__link-text {
+
+    font-size: 12px;
+}
+
+.kt-grid > .kt-grid__item > .m-content {
+
+    width: 100%;
+    background-color: white;
+    box-shadow: -13px -2px 17px -12px rgba(41, 50, 66, 0.1);
+    height: 100px;
+    position: relative;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kt-header__topbar .kt-header__topbar-item .kt-header__topbar-icon .kt-nav__link-badge > span {
+
+
+    color: #fd5c7a !important;
+    background: rgb(255, 233, 253) !important;
+}
+
+/*
+.kt-badge.kt-badge--unified-warning {
+
+    color: #fd5c7a;
+    background: rgb(255, 233, 253);
+}
+
+
+.kt-header__topbar-item:nth-child(6) .kt-badge.kt-badge--unified-warning {
+
+    color: #2fcab7;
+    background: rgba(12, 209, 174, .1);
+}
+
+.kt-header__topbar-item:nth-child(5) .kt-badge.kt-badge--unified-warning {
+
+    color: #22b9ff;
+    background: rgba(34, 185, 255, .3);
+}
+
+.kt-header__topbar-item:nth-child(4) .kt-badge.kt-badge--unified-warning {
+
+    color: #22b9ff;
+    background: rgba(34, 185, 255, .3);
+}
+*/
+
+.form-control,
+.select2-container--default .select2-selection--single,
+.select2-container--default.select2-container--focus .select2-selection--single {
+
+    border: 1px solid #666666;
+}
+
+.kt-header__topbar .kt-header__topbar-item.kt-header__topbar-item--search .kt-quick-search .kt-quick-search__form .input-group {
+    border-radius: 4px;
+    border: 1px solid #aaa;
+}
+
+.kt-radio.kt-radio--solid > input:checked ~ span,
+.kt-radio.kt-radio--solid > span {
+    background: #1dc9b74a;
+}
+
+.kt-radio.kt-radio--solid > span:after {
+    border: solid #999999;
+    background: #22b9ff;
+}
+
+#calculate {
+
+    padding: 8px 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+#calculate ~ .text-primary {
+
+    font-size: 16px !important;
+    padding: 3px 15px;
+    border: 1px solid #999999;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.btn.btn-brand.btn-elevate:active,
+.btn.btn-brand.btn-elevate:hover > i {
+
+    font-size: 12px;
+    position: relative;
+    top: 1px;
+    padding: 0 0 0 3px;
+}
+
+.table thead th,
+.table thead td,
+.table-bordered th,
+.table-bordered td {
+
+    border-color: #999;
+}
+
+.table-bordered th,
+.table-bordered td {
+
+    padding: 0;
+}
+
+.table-bordered td > br {
+
+    display: none;
+}
+
+.table-bordered td > hr {
+
+    padding: 0;
+}
+
+.span-td {
+
+    padding: 0;
+    border-bottom: 1px solid #ddd;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.span-td button {
+
+    padding: 4px 10px;
+}
+
+.span-td a {
+
+    padding: 4px 6px;
+}
+
+.span-td a > i {
+
+    font-size: 14px;
+    position: relative;
+    right: 3px;
+}
+
+.span-td a.cust-link {
+
+    padding: 4px 6px;
+}
+
+.span-td.cust-name {
+
+    height: 100%;
+}
+
+.table td {
+
+    vertical-align: middle;
+}
+
+/*-=============== roles =================-*/
+
+.kt-aside--fixed.kt-aside--minimize .kt-wrapper {
+
+    padding: 0;
+}
+
+.kt-portlet .kt-portlet__body {
+
+    justify-content: center;
+    flex-direction: unset;
+    flex-wrap: wrap;
+}
+
+#roles-table {
+
+    width: 65%;
+}
+
+#roles-table td a,
+#roles-table td button {
+
+    padding: 4px 10px;
+    width: 90px;
+    height: 30px;
+    margin: 3px 0;
+}
+
+#roles-table td a i,
+#roles-table td button i {
+
+    font-size: 12px;
+}
+
+/*-=============== //roles// =================-*/
+
+#kt_content {
+
+    padding-top: 100px;
+}
+
+#kt_content .kt-grid__item .m-content {
+
+    height: auto;
+    z-index: 9;
+    widows: 100%;
+}
+
+#kt_content .kt-grid__item .m-content .row {
+
+    margin: 0;
+    width: 100%;
+}
+
+#kt_content .kt-grid__item .m-content .row form {
+
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+#kt_content .kt-grid__item .m-content .row form th {
+
+    min-width: 138px;
+}
+
+#kt_content .kt-grid__item .m-content .row form tbody tr:nth-child(2n+1) {
+
+    background-color: #ccc;
+}
+
+#kt_content .kt-grid__item .m-content .row form td input {
+
+    position: relative;
+    top: 2px;
+}
+
+.table-striped tbody tr:nth-of-type(2n+1) {
+
+    background-color: #ccc;
+}
+
+#turns-table,
+#users-table {
+    width: 100%;
+}
+
+/*-========== users ===========-*/
+
+#users-table td a,
+#users-table td button {
+
+    padding: 4px 10px;
+    margin: 3px 0;
+}
+
+#users-table td a i,
+#users-table td button i {
+
+    font-size: 12px;
+}
+
+#users-table td button:first-child i {
+
+    position: relative;
+    right: 3px;
+}
+
+/*-========== //users// ===========-*/
+/*-========== create ===========-*/
+
+#users-create .form-group {
+
+    width: 100%;
+}
+
+#users-create .table-bordered td {
+
+    text-align: right;
+    padding-right: 20px;
+}
+
+#users-create .kt-portlet__foot .btn.btn-primary {
+
+    width: 200px;
+}
+
+/*-========== //create// ===========-*/
+/*-========== cheques ===========-*/
+
+#cheques-table {
+
+    width: 60%;
+}
+
+#cheques-table a.btn-success,
+#cheques-table button.btn-danger {
+
+    padding: 5px 10px;
+}
+
+#cheques-table a.btn-succes i,
+#cheques-table button.btn-danger i {
+
+    font-size: 14px;
+}
+
+/*-========== //cheques// ===========-*/
+/*-========== patients ===========-*/
+
+#services a,
+#services button,
+#patients-table a,
+#patients-table button,
+#storage-table button,
+#storage-table a {
+
+    padding: 5px 10px;
+    margin: 5px 0;
+}
+
+/*-========== //patients// ===========-*/
+/*-========== patients-create ===========-*/
+
+.turns-create .form-group,
+#patients-create .form-group {
+
+    width: 100%;
+}
+
+/*-========== //patients-create// ===========-*/
+/*-========== services-create ===========-*/
+
+#services-create {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#services-create .kt-portlet__body {
+
+    justify-content: center;
+    flex-direction: unset;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 100px;
+}
+
+#services-create .kt-portlet__body .form-group {
+
+    width: 100%;
+}
+
+#services-create .col-lg-6 {
+
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+/*-========== //services-create// ===========-*/
+/*-========== storage-create ===========-*/
+
+#storage-create .form-group {
+
+    width: 100%;
+}
+
+/*-========== //storage-create// ===========-*/
+/*-========== fund ===========-*/
+
+.fund-table .tab-content {
+
+    width: 100%;
+}
+
+
+/*-========== //fund// ===========-*/
+/*-=================================== //end// ============================-*/
+
+
+/* new styles */
+
+#status td > img {
+
+    max-width: 25px !important;
+}
+
+.kt-portlet__body .tab-content {
+
+    width: 100%;
+}
+
+.cke_editable p {
+
+    margin: 0;
+    max-height: 22px;
+}
+
+.kt-widget.kt-widget--user-profile-2 .kt-widget__body .kt-widget__item .kt-widget__contact {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #999;
+}
+
+.kt-widget.kt-widget--user-profile-2 .kt-widget__footer {
+
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.kt-widget.kt-widget--user-profile-2 .kt-widget__footer .btn {
+
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px 0;
+    width: 48%;
+}
+
+.kt-widget.kt-widget--user-profile-2 .kt-widget__footer .btn:first-child {
+
+    background-color: #E91E63;
+    border-color: #E91E63;
+}
+
+.kt-widget__body form input.btn {
+
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+    margin-bottom: 15px;
+}
+
+#drugs {
+
+    width: 265px !important;
+    margin-left: 18px;
+}
+
+strong#plus {
+
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8f9f8;
+    padding-top: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 760px) and (min-width: 400px) {
+
+    .kt-header-mobile--fixed .kt-header-mobile,
+    .kt-header-mobile--fixed .kt-header__topbar {
+
+        position: relative;
+        top: 0;
+    }
+
+    .kt-header-mobile .kt-header-mobile__logo img {
+
+        max-height: 40px !important;
+    }
+
+    #kt_content {
+
+        padding-top: 10px;
+    }
+
+    .kt-portlet .kt-widget__body.mt-3 {
+
+        padding: 0 30px;
+    }
+
+    .kt-portlet .kt-widget__body.mt-3 input.btn {
+
+        margin-bottom: 10px
+    }
+
+    .kt-portlet .kt-widget__body.mt-3 input.form-control {
+
+        margin-bottom: 10px
+    }
+
+    .kt-aside {
+
+        width: 245px !important;
+    }
+
+    .kt-aside--on .kt-aside-close {
+
+        right: 215px;
+    }
+
+    #turns-table {
+
+        width: 280%;
+    }
+
+    #tbl tbody tr,
+    #tbl_drug tr,
+    #drugs {
+
+        width: 100% !important;
+    }
+
+    #tbl tbody tr td {
+
+        width: 30%;
+    }
+
+    #tbl tbody tr td:last-child {
+
+        width: 10%;
+    }
+
+    #tbl_drug tbody tr td {
+
+        width: 45%;
+    }
+
+    #tbl_drug tbody tr td:last-child {
+
+        width: 10%;
+    }
+
+    .select2-container {
+
+        width: 100% !important;
+    }
+
+    #patients-table {
+
+        width: 270% !important;
+    }
+
+    #turns-table td {
+
+        width: auto !important;
+    }
+
+    #append table {
+
+        width: 100%;
+    }
+
+    #append table tr {
+
+        width: 100% !important;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    #append table tr td,
+    #append table tr td select,
+    #append table tr td input {
+
+        width: 100% !important;
+    }
+
+    #future-turns {
+
+        margin-top: 30px;
+        width: 70%;
+        margin-right: 15%;
+    }
+
+    #future-turns .table thead th,
+    #future-turns .table td {
+
+        text-align: center;
+        font-size: 14px;
+        padding: 5px;
+    }
+
+
+
+
+
+}
+
+@media screen and (max-width: 1100px) and (min-width: 1000px) {
+
+    .kt-aside {
+
+        width: 22%;
+    }
+
+    .kt-aside--on .kt-aside-close {
+
+        right: 18%;
+    }
+
+}
+
+/*  End new styles */

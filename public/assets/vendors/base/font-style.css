@@ -1,0 +1,23 @@
+@font-face {
+  font-family: Vazir;
+  src: url(fonts/vazir/Vazir-Medium.woff);
+}
+body{
+	font-family: Vazir;
+}
+
+h1, h2, h3, h4, h5, h6, button, input, .btn, ::-webkit-input-placeholder {
+	font-family: Vazir !important;
+}
+
+.thumb {
+    height: 75px;
+    border: 1px solid #000;
+    margin: 10px 5px 0 0;
+  }
+
+.thumb_edit {
+    height: 125px;
+    border: 1px solid #000;
+    margin: 10px 5px 0 0;
+  }  

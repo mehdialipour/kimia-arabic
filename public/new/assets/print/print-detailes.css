@@ -1,0 +1,163 @@
+* {
+
+    font-family: IRANSans, Open_Sans;
+    outline: none !important;
+    text-decoration: none !important;
+}
+
+body {
+
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    direction: rtl;
+    overflow-x: hidden;
+}
+
+main {
+
+    margin-top: 30px;
+}
+
+.table-bordered td,
+.table-bordered th {
+    border: 2px solid #333 !important;
+    vertical-align: middle;
+}
+
+.table-bordered th {
+
+    font-size: 14px;
+    text-align: center;
+    width: 7%;
+    max-width: 7%;
+    min-width: 7%;
+}
+
+.table-bordered td {
+
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 5px;
+}
+
+.time-days {
+
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid #333;
+    border-bottom: none;
+}
+
+.time-days h3 {
+
+    width: 25%;
+    text-align: center;
+    border-right: 2px solid #333;
+    margin: 0;
+    font-size: 26px;
+    padding: 10px 0;
+}
+
+.time-days h3:nth-child(1) {
+
+    width: 16.5%;
+    border: none;
+}
+
+.time-days h3.name-doctor {
+
+    font-size: 20px;
+}
+
+.print-page .titles {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.print-page .titles img {
+
+    width: 45px;
+}
+
+.print-page .titles .intro-kimia span {
+
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.print-page .titles .date-today {
+
+    font-size: 16px;
+}
+
+.main-body .box-border .details {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main-body .box-border .details .inner-det {
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 14px;
+    padding: 15px 0;
+    font-weight: 500;
+}
+
+.main-body .up-title {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    padding-bottom: 50px;
+}
+
+.main-body .up-title .logo-kimia {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.main-body .up-title .logo-kimia img {
+
+    width: 50px;
+    padding-left: 10px;
+}
+
+.send-instruct,
+.date{
+    
+    font-size: 18px;
+}
+
+.sign-doctor{
+    
+    font-size: 16px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+.main-body .box-border .details .inner-det.fnt-12{
+    
+    font-size: 12px;
+    padding-bottom: 50px;
+}
+
+
+
+
+/*-======================= //end// ===========================-*/
